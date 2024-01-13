@@ -1,6 +1,5 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
-import ThemeContext from './contexts/ThemeContext';
 
 function App() {
   const [quote, setQuote] = useState('');
